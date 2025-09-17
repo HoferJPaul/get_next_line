@@ -1,0 +1,19 @@
+This is a normal line.
+   
+	This line starts with a tab.
+    
+     
+
+This line has lots of trailing spaces.                                    
+This line has embedded		tabs		and	more	tabs.
+ThisLineHasNoSpacesAndIsLongToTestTheBufferExpansionMechanismOfGNLForHugeChunksOfTextThatMayNotFitInASingleReadCall.
+
+1234567890
+A
+B
+C
+
+Line with UTF-8: Červená řeka, 你好, мир, عربى
+Line with ASCII control chars: First part.\x01SecondPart.\x02ThirdPart.
+
+Line before EOF without newline
